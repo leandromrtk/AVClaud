@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Reservas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>📅 Reservar uma Mesa</h2>
+    <form id="reservaForm">
+      <input type="text" placeholder="Nome" name="nome" required>
+      <input type="text" placeholder="Telefone" name="telefone" required>
+      <input type="datetime-local" name="data" required>
+      <button type="submit">Reservar</button>
+    </form>
+
+    <h3>📋 Reservas Feitas</h3>
+    <ul id="listaReservas"></ul>
+
+    <a href="index.html" class="back">← Voltar</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

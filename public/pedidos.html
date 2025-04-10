@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Pedidos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>🧾 Fazer Pedido</h2>
+    <form id="pedidoForm">
+      <input type="text" placeholder="Nome do Cliente" name="cliente" required>
+      <input type="text" placeholder="Pedido (ex: Feijoada, Suco)" name="itens" required>
+      <button type="submit">Enviar Pedido</button>
+    </form>
+
+    <h3>📦 Pedidos Registrados</h3>
+    <ul id="listaPedidos"></ul>
+
+    <a href="index.html" class="back">← Voltar</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
